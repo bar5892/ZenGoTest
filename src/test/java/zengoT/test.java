@@ -57,8 +57,7 @@ static WebDriver driver;
   		Thread.sleep(500);
   		WebElement Ethereum =  driver.findElement(By.xpath("//li[@id='menu-item-13963']"));
   		actions.click(Ethereum);
-  		actions.perform();
-  		//Thread.sleep(500);	
+  		actions.perform();	
   }
   
   @Test (dependsOnMethods = "test2")
